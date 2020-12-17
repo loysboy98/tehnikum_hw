@@ -1,0 +1,29 @@
+print('''Hello I'am MahmudAKA
+let's get acquainted''')
+name = str(input("what is name?: "))
+
+gender_of_the_person = str(input("what gender are you:? "))
+
+age = int(input('how old are you?: '))
+if age > 18:
+    print("Hi))", name)
+else:
+    print('Bey')
+print('''давай по играм
+решении математических примеров''')
+
+a = int(input('напиши число: '))
+b = int(input('напиши 2 число: '))
+print('"Сумма чисел равна =', a, '+', b, '=', a + b)
+
+print('Разность чисел')
+a = int(input('напиши число: '))
+b = int(input('напиши 2 число: '))
+print('Разность чисел равна =', a, '-', b, '=', a - b)
+
+print("Произведение равно")
+a = int(input('напиши число: '))
+b = 0
+print('Произведение равно =', a, '*', b, '=', a * b)
+
+print("bay ", name)
